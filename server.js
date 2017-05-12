@@ -326,7 +326,7 @@ io.on('connection', function (socket) {
 
 server.listen(app.get('port'), function() {
 	console.log("Node app running on port",app.get('port'));
-} 
+}); 
 
 
 
